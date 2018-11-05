@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    >
+    <RelativeLayout
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/cardbg1"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="Name"
+            android:id="@+id/nametxt"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nametxt"
+            android:padding="10dp"
+            android:text="GolDar  :"
+            android:layout_above="@+id/jktxt"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:id="@+id/goldar"
+            android:layout_marginLeft="10dp"
+             />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="Golongan Darah"
+            android:id="@+id/goldartxt"
+            android:padding="10dp"
+            android:layout_below="@id/nametxt"
+            android:layout_toRightOf="@+id/goldar" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="Jenis Kelamin"
+            android:id="@+id/jktxt"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/goldartxt"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

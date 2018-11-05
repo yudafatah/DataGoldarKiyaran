@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/goldarbg2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/goldarkiyaranic"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama : "
+            android:id="@+id/txt1"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:padding="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Warga"
+            android:id="@+id/namatxt"
+            android:layout_toRightOf="@+id/txt1"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:padding="10dp"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt2"
+            android:text="Golongan Darah : "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:padding="10dp"
+            android:layout_below="@+id/txt1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/goldartxt"
+            android:text="Golongan Darah"
+            android:layout_toRightOf="@+id/txt2"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:padding="10dp"
+            android:layout_below="@id/namatxt"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt3"
+            android:text="Jenis Kelamin : "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:padding="10dp"
+            android:layout_below="@+id/txt2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/jktxt"
+            android:text="Jenis Kelamin"
+            android:layout_toRightOf="@+id/txt3"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:padding="10dp"
+            android:layout_below="@id/goldartxt"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt4"
+            android:text="Tanggal Lahir : "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:padding="10dp"
+            android:layout_below="@+id/txt3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tglahirtxt"
+            android:text="Tanggal Lahir"
+            android:layout_toRightOf="@+id/txt4"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:padding="10dp"
+            android:layout_below="@id/jktxt"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt5"
+            android:text="Alamat : "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:padding="10dp"
+            android:layout_below="@+id/txt4"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/alamatxt"
+            android:text="Alamat"
+            android:layout_toRightOf="@+id/txt5"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:padding="10dp"
+            android:layout_below="@id/tglahirtxt"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|center"
+    >
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="20dp"
+
+        app:srcCompat="@android:drawable/ic_menu_delete" />
+
+</RelativeLayout>
+
+        </RelativeLayout>
+
+</RelativeLayout>
+
+</RelativeLayout>
